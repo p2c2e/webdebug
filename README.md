@@ -1,5 +1,5 @@
 ./build.sh
 
-docker build . -t webdebug
+docker build . -t sudhan/webdebug
 
-docker run --rm -p 8888:8888 webdebug
+docker run --rm -p 8888:8888 sudhan/webdebug
